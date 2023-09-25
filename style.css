@@ -10,6 +10,20 @@ body{
     display: flex;
 }
 
+.search-input{
+    width: 80%;
+    box-sizing: border-box;
+    padding: 17px;
+    background-color: #3a3a3a9d;
+    color: white;
+    font-size: 1 8px;
+}
+
+.search-input:focus{
+    outline: none;
+    border: none ;
+}
+
 input{
     transform: .3s;
     width: 75%;
@@ -30,7 +44,7 @@ input:focus{
     padding: 15px;
     font-size: 16px;
     border: 2px solid grey;
-    color: white;
+    color: white ;
 }
 
 #title{
